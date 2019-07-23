@@ -1,6 +1,7 @@
-const fetchData = require('./models');
+// const fetchData = require('./models');
 
 exports.produceReport = (req, res, next) => {
     const { url } = req.body;
-    fetchData(url);
+    console.log(url);
+    // fetchData(url);
 }
