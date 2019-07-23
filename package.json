@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/daffodil11/oh-jonny-what-are-you-like#readme",
   "devDependencies": {
-    "eslint": "^6.1.0"
+    "eslint": "^6.1.0",
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
