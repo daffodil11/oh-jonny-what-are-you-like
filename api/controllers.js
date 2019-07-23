@@ -1,7 +1,7 @@
-// const fetchData = require('./models');
+const { fetchData } = require('./models');
 
 exports.produceReport = (req, res, next) => {
     const { url } = req.body;
-    console.log(url);
-    // fetchData(url);
+    fetchData(url)
+    .then(result => res.status(200).send({ result }));
 }
