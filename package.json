@@ -4,6 +4,8 @@
   "description": "",
   "main": "api/app.js",
   "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "mocha api/app.spec.js",
     "dev": "nodemon api/listen.js"
   },
@@ -17,14 +19,29 @@
     "url": "https://github.com/daffodil11/oh-jonny-what-are-you-like/issues"
   },
   "homepage": "https://github.com/daffodil11/oh-jonny-what-are-you-like#readme",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "^3.0.1",
+    "express": "^4.17.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
   "devDependencies": {
     "chai": "^4.2.0",
     "eslint": "^6.1.0",
     "mocha": "^6.2.0",
     "nodemon": "^1.19.1",
     "supertest": "^4.0.2"
-  },
-  "dependencies": {
-    "express": "^4.17.1"
   }
 }
