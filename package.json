@@ -4,7 +4,7 @@
   "description": "",
   "main": "api/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha api/app.spec.js",
     "dev": "nodemon api/listen.js"
   },
   "repository": {
@@ -18,8 +18,11 @@
   },
   "homepage": "https://github.com/daffodil11/oh-jonny-what-are-you-like#readme",
   "devDependencies": {
+    "chai": "^4.2.0",
     "eslint": "^6.1.0",
-    "nodemon": "^1.19.1"
+    "mocha": "^6.2.0",
+    "nodemon": "^1.19.1",
+    "supertest": "^4.0.2"
   },
   "dependencies": {
     "express": "^4.17.1"
