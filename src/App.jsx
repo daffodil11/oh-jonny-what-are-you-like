@@ -4,7 +4,9 @@ class App extends Component {
   state = {}
   render() {
     return (
-      <div>I'm a total div</div>
+      <div>
+        <h1>I'm still a div</h1>
+      </div>
     );
   }
 }
