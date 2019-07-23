@@ -1,4 +1,6 @@
 const router = require('express').Router();
 const { produceReport } = require('./controllers');
 
-router.route("/api/produce-report").post(produceReport);
+router.route("/produce-report").post(produceReport);
+
+module.exports = router;
